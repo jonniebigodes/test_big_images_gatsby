@@ -1,0 +1,13 @@
+module.exports={
+    plugins:[
+        {
+            resolve:`gatsby-source-filesystem`,
+            options:{
+                name:`large_images`,
+                path:`./src/assets/images`
+            }
+        },
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`
+    ]
+}
